@@ -1,2 +1,7 @@
-console.log(document.form['happyForms']);
-console.log('Hola mundo')
+const happyForm = document.forms['happyForm'];
+
+happyForm.addEventListener('submit',(e)=> { 
+    e.preventDefault()
+    console.log('Submiteado');
+})
+
