@@ -1,1 +1,1 @@
-alert('Hola mundo');
+console.log(document.forms['happyForms']);
