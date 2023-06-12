@@ -23,7 +23,7 @@ happyForm.addEventListener('submit', (e) => {
          case '/':
          value= number1 / number2;
          break;
-         default;
+         default:
          break;
         }
 
