@@ -7,5 +7,6 @@ happyForm.addEventListener('submit', (e) => {
     const number1 = +happyForm['number1'].value;
     const operator = happyForm['operator'].value;
     const number2 = +happyForm['number2'].value;
-    result.textContent = number1 + number2
+    result.textContent = number1 + number2;
+    
 });
