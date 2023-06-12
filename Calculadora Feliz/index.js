@@ -3,7 +3,7 @@ const result = document.getElementById('result');
 happyForm.addEventListener('submit', (e) => {
     e.preventDefault()
 
-    let value = 0 ;
+    let value = 0;
     const number1 = +happyForm['number1'].value;
     const operator = happyForm['operator'].value;
     const number2 = +happyForm['number2'].value;
@@ -14,22 +14,23 @@ happyForm.addEventListener('submit', (e) => {
         break;
 
         case '-':
-        value= number1 + number2;
+        value= number1 - number2;
         break;
             
         case '*':
-        value= number1 + number2;
+        value= number1 * number2;
          break;
          case '/':
-         value= number1 + number2;
+         value= number1 / number2;
          break;
          default;
-         break;}
-         
+         break;
+        }
+
     
     
     
     
-    result.textContent = number1 + number2;
+    result.textContent = value;
 
 });
