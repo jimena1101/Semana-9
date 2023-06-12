@@ -1,2 +1,2 @@
-console.log(document.forms['happyForms']);
+console.log(document.form['happyForms']);
 console.log('Hola mundo')
