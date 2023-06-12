@@ -1,5 +1,5 @@
 const happyForm = document.forms['happyForm'];
-
+const result = document.getElementById('result');
 happyForm.addEventListener('submit', (e) => {
     e.preventDefault()
 
